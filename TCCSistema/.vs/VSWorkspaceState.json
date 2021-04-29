@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TCCSistema",
+    "\\TCCSistema\\Areas",
+    "\\TCCSistema\\Areas\\Identity",
+    "\\TCCSistema\\Areas\\Identity\\Pages",
+    "\\TCCSistema\\Areas\\Identity\\Pages\\Account",
+    "\\TCCSistema\\Controllers",
+    "\\TCCSistema\\Views",
+    "\\TCCSistema\\Views\\Home",
+    "\\TCCSistema\\Views\\Shared"
+  ],
+  "SelectedNode": "\\TCCSistema\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+  "PreviewInSolutionExplorer": false
+}

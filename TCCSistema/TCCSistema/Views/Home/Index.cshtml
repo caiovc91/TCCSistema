@@ -1,0 +1,46 @@
+﻿@model Login
+@{
+
+    ViewData["Title"] = "Home Page";
+    //Layout = null;
+}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TCCSistema</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+<style>
+
+    .logon {
+        border-style: solid;
+        border-color: #d1d1d1;
+        border-radius: 5px;
+        padding: 5px 5px;
+        width: 50%;
+    }
+
+    .login, .password {
+        display: inline-flex;
+        padding: 5px;
+    }
+</style>
+
+<div class="container logon">
+    <form asp-controller="Home" asp-action="Index" method="post">
+        <div class="input-group mb-3 col-lg-12">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="login">Login</span>
+            </div>
+            <input asp-for = "login" type="text" class="form-control" aria-label="login" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3 col-lg-12">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="password">Senha</span>
+            </div>
+            <input asp-for="password" type="password" class="form-control" aria-label="password" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="col-lg-12 text-center">
+            <button type="submit" class="btn btn-success"> Login</button>
+        </div>
+    </form>
+</div>
